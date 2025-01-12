@@ -1,6 +1,7 @@
 import React from "react";
-
 import { Metadata } from "next";
+
+import "../styles/index.scss";
 
 interface RootLayoutProps {
   children: React.ReactNode;
