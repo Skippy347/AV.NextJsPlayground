@@ -1,0 +1,37 @@
+@use "../mixins/mixins";
+
+body {
+  @include mixins.fluid-text(16, 18);
+
+  font-family: var(--font-family-base);
+
+  font-weight: 400;
+  line-height: 1.28;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+h1 {
+  @include mixins.fluid-text(43, 60);
+}
+h2 {
+  @include mixins.fluid-text(36, 40);
+}
+h3 {
+  @include mixins.fluid-text(26, 30);
+}
+h4 {
+  @include mixins.fluid-text(18, 20);
+}
