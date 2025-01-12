@@ -1,5 +1,7 @@
 @use "./fonts/fonts";
 @use "./normalize/normalize";
+@use "./variables/variables";
+@use "./mixins/mixins";
 
 body {
   font-family: "Noto Sans KR", sans-serif;
