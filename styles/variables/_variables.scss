@@ -1,0 +1,25 @@
+:root {
+  //fonts
+  --font-family-base: "Space Grotesk", sans-serif;
+
+  //colors
+  --color-dark: #191a23;
+
+  //border
+  --border: 1px solid var(--color-dark);
+  --border-radius-small: 7px;
+  --border-radius-medium: 14px;
+  --border-radius-large: 45px;
+  //shadow
+  --shadow: 0 5px 0 0 var(--color-dark);
+  //container
+  --container-width: 1240px;
+  --container-padding-x: 20px;
+  //section
+  --section-padding-y: 70px;
+  //transition
+  --transition-duration: 0.2s;
+  //shared
+  --input-height: 59px;
+  --button-height: 68px;
+}
