@@ -5,7 +5,7 @@ export enum ButtonVariant {
   SECONDARY = "secondary",
 }
 
-export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
   children: React.ReactNode;
 
   variant: ButtonVariant;
